@@ -1,0 +1,28 @@
+/* general.css */
+
+/***************************************************
+	add your general style sheet declarations to
+		- body
+		- headers
+		- hyperlinks
+***************************************************/
+@import url(http://fonts.googleapis.com/css?family=Offside);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3 {
+	font-family: 'Offside', cursive;
+}
+p {
+
+}
+a, a:link {
+
+}
+a:hover {
+
+}
+a:visited {
+
+}

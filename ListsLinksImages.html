@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Demo on Lists, links, & Images</title>
+<link href='http://fonts.googleapis.com/css?family=Joti+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Expletus+Sans' rel='stylesheet' type='text/css'>
+<style type="text/css">
+body {
+	font-family: 'Expletus Sans', Calibri, sans-serif;
+}
+h1, h2, h3 {
+	font-family: 'Joti One', cursive, sans-serif;
+	text-transform: uppercase;
+}
+h1 {
+	text-transform: capitalize;
+	font-variant: small-caps;
+}
+p {
+	text-align: center;
+	line-height: 1.2;
+}
+h1, h2, p { 
+	border: 2px solid green;
+}
+.attention {
+	color: red;
+}
+</style>
+</head>
+<body>
+<h1>Demo on Lists, links, & Images</h1>
+<h2>Block Tags Include:</h2>
+<p>Headers (h1, h2, h3...), Paragraphs, lists, tables</p>
+
+<h2>Bulletted (Unordered) Lists</h2>
+<ul>
+	<li><strong>This</strong></li>
+	<li>That</li>
+	<li>The Other Thing</li>
+</ul>
+
+<h2>Numbered (Ordered) Lists: Top 5 Movies</h2>
+<ol>
+	<li>Brazil</li>
+	<li>Strange Brew</li>
+	<li>Monty Python and the <strong>Holy Grail</strong></li>
+	<li>Raising Arizona</li>
+	<li>Raiders of the Lost Ark</li>
+</ol>
+
+<h2 class="attention">Some <em>Handy Links</em></h2>
+<ul>
+	<li><a href="http://html-ipsum.com/">HTML Ipsum</a> - Get Lorem Ipsum and their tags too!</li>
+	<li><a href="http://colorsontheweb.com/">Colors on the Web</a> - This is your best color friend online</li>
+	<li><a href="http://w3schools.com">W3Schools.com</a> - a great resource for teaching yourself web technologies</li>
+	<li><a href="http://www.youtube.com/watch?v=GUCcObwIsOs">A Defense of Comic Sans</a> - a great history of Typography</li>
+	<li><a href="http://tinyurl.com/SA-WD-L1">Website Design Level 1 Resources</a> - Click Download to get a zipped file of all the resources</li>
+</ul>
+
+<h2>Images</h2>
+<p class="attention">Note: images are inline tags, and are supposed to go in block-level tags (such as <code>&lt;p&gt;</code> and <code>&lt;div&gt;</code>)</p>
+<div>
+	<!-- External Absolute Link -->
+	<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Locomotives-Roundhouse2.jpg/310px-Locomotives-Roundhouse2.jpg" alt="Image of Locomotives Roundhouse" />
+	<img src="http://www.singletracks.com/blog/wp-content/uploads/2008/07/big-air-mtb.jpg" alt="Image of Mountain biker" />
+	
+	<!-- Internal Relative Link -->
+	<img src="images/mountain-bike1.png" alt="Image of Mountain Biker" />
+</div>
+</body>
+</html>
+
