@@ -1,0 +1,22 @@
+/* navigation.css */
+
+nav {
+	min-height: 33px;
+	background-color:#ab9a5e;
+}
+nav ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	padding-top: 5px;
+}
+nav li {
+	display:inline;
+}
+nav a {
+	padding: 5px 10px;
+	background-color: #362511;
+	border: 1px solid #f8fcdc;
+}
+nav a:hover {
+}
